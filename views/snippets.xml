@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+	<data>
+
+		
+
+		<template id="nav_bar_snippet" inherit_id="website.snippets" name="Clean Theme snippets">
+			<xpath expr="//div[@id='snippet_structure']" position="inside">
+			<!-- Title -->
+			<div>
+			    <div class="oe_snippet_thumbnail">
+				<img class="oe_snippet_thumbnail_img" src="/div_snip_hello/static/src/img/hello_snippet.jpeg" />
+						 
+				<span class="oe_snippet_thumbnail_title">Hello Snip</span>
+			    </div>
+			    <section class="oe_snippet_body fw_categories">       
+			<div class="container">
+			 <div class="well">
+      <div class="media">
+      	<a class="pull-left" href="#">
+    		<img class="media-object" src="http://placekitten.com/g/150/150"/>
+  		</a>
+  		<div class="media-body">
+    		<h4 class="media-heading">Receta 1</h4>
+          <p class="text-right">By Francisco</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
+Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
+dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
+Aliquam in felis sit amet augue.</p>
+          <ul class="list-inline list-unstyled">
+  			<li><span><i class="glyphicon glyphicon-calendar"></i> 2 days, 8 hours </span></li>
+            <li>|</li>
+            <span><i class="glyphicon glyphicon-comment"></i> 2 comments</span>
+            <li>|</li>
+            <li>
+               <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star-empty"></span>
+            </li>
+            <li>|</li>
+            <li>
+            <!-- Use Font Awesome http://fortawesome.github.io/Font-Awesome/ -->
+              <span><i class="fa fa-facebook-square"></i></span>
+              <span><i class="fa fa-twitter-square"></i></span>
+              <span><i class="fa fa-google-plus-square"></i></span>
+            </li>
+			</ul>
+       </div>
+    </div>
+  </div>
+			  <div class="row">
+			    <div class="col-md-12 text-center mt32 mb32">
+			      <h2>Hello World</h2>
+			      <h3 class="text-muted  " >Click to edit text</h3>
+			    </div>
+			  </div>
+			</div>
+			    </section>
+			</div>
+			<!-- /Title -->
+			<!-- Lightbox -->
+			<!-- <div>
+			    <div class="oe_snippet_thumbnail">
+				<img class="oe_snippet_thumbnail_img" src="/theme_clean_sfl/static/img/blocks/block_big_picture.png" /> 
+						 
+				<span class="oe_snippet_thumbnail_title">Lightbox</span>
+			    </div>
+		      <section class="oe_snippet_body fw_categories chd-lightbox">       
+		      	<div class="container">
+				<div class="row">
+		
+				<div class="col-md-12 text-center mt32 mb32">
+			<h2>Your Gallery</h2>
+			<h3 class="text-muted">Responsive Portfolio With Lightbox</h3>
+				<hr/>
+			</div>
+		    
+		      <div class="col-md-3 mt16 mb16">
+		      <a href="#" title="Image 1">
+		      <img src="http://placehold.it/800x400" class="lightbox-thumbnail img-responsive"/>
+		      </a>
+			  <h5 class="text-center">Gallery Item</h5>
+		      <h6 class="text-center">Responsive Portfolio With Lightbox</h6>
+		      </div>
+		      
+		      <div class="col-md-3 mt16 mb16">
+		      <a href="#" title="Image 2">
+		      <img src="http://placehold.it/800x400" class="lightbox-thumbnail img-responsive"/>
+		      </a>
+			  <h5 class="text-center">Gallery Item</h5>
+		      <h6 class="text-center">Responsive Portfolio With Lightbox</h6>
+		      </div>
+		      
+		      <div class="col-md-3 mt16 mb16">
+		      <a href="#" title="Image 3">
+		      <img src="http://placehold.it/800x400" class="lightbox-thumbnail img-responsive"/>
+		      </a>
+			  <h5 class="text-center">Gallery Item</h5>
+		      <h6 class="text-center">Responsive Portfolio With Lightbox</h6>
+		      </div>
+		      
+		      <div class="col-md-3 mt16 mb16">
+		      <a href="#" title="Image 3">
+		      <img src="http://placehold.it/800x400" class="lightbox-thumbnail img-responsive"/>
+		      </a>
+			  <h5 class="text-center">Gallery Item</h5>
+		      <h6 class="text-center">Responsive Portfolio With Lightbox</h6>
+		      </div>
+		      
+			  <div class="col-md-12 text-center mt32 mb32">
+			  <hr/>
+			  </div>
+			  
+		   		</div>
+				</div>
+		
+			<div id="myModal" class="modal fade" tabindex="-1" role="dialog">
+		  <div class="modal-dialog">
+		  <div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">×</button>
+				<h3 class="modal-title">Heading</h3>
+			</div>
+			<div class="modal-body">
+		
+			</div>
+			<div class="modal-footer">
+				<button class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		   </div>
+			
+			  </div>
+			</div>
+		
+				</section>
+		     </div> 
+		-->
+		<!-- /Lightbox-->
+
+			</xpath>
+<!-- /////////// EFFECTS ///////////////////////////////////////////////////////////////////////////////////////// -->		
+		<xpath expr="//div[@id='snippet_effect']" position="inside">
+		
+		<!-- Headerwrap Image-->
+        <div>
+            <div class="oe_snippet_thumbnail">
+                <img class="oe_snippet_thumbnail_img" src="/theme_clean_sfl/static/img/blocks/block_big_header.png" /> 
+				 
+                <span class="oe_snippet_thumbnail_title">Header Image</span>
+            </div>
+            <section class="bg-transparent-shade">
+            <section id="headerwrap" class="oe_snippet_body mb0 mt0 bg-blur bg_clean_light" style="background-image: url(/div_snip_hello/static/src/img/bg_clean_light-11.jpg)">
+			<!--style="background-image: url(/theme_clean_sfl/static/img/backgrounds/clean/bg_clean_light-11.jpg")--> 
+			<div class="container">
+			<div class="row">
+            <div class="cold-md-12 mt64">
+<div class="logo-clean">
+<div class="logo-clean-txt">Clean</div>
+<div class="picto-clean"><div class="picto-clean-bg"><img src="/div_snip_hello/static/src/img/clean_picto.png"/> </div></div> 
+</div>
+            </div>
+  			<div class ="col-md-6 col-md-offset-3 headerwrap-content text-center"> 
+			<h2>A Business Theme For Odoo</h2>
+			<p class="text-justify mb32 mt32">
+  			Lorem ipsum dolor sit amet, his ea mollis fabellas principes. Quo mazim facilis tincidunt ut, utinam saperet facilisi an vim.
+			Lorem ipsum dolor sit amet, his ea mollis fabellas principes. Quo mazim facilis tincidunt ut, utinam saperet facilisi an vim.
+			</p>
+			<button type="button" class="btn btn-lg btn-success">Theme Features</button>
+    		</div>
+			</div>    
+			</div>
+                </section>
+            </section>
+        </div>
+		<!-- /Headerwrap -->
+       
+		
+		</xpath>
+<!-- /////////// END EFFECTS ///////////////////////////////////////////////////////////////////////////////////// -->	
+		</template>
+
+
+		<template id="nav_bar_snippet_options" inherit_id="website.snippet_options">
+			<xpath expr="//div" position="after">
+				
+			</xpath>
+		</template>
+
+	</data>
+</openerp>
+
+
